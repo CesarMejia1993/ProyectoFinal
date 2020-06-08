@@ -5,27 +5,39 @@ using System.Web;
 
 namespace ProyectoTienda
 {
-    public class Cliente
+    public class Carrito
     {
 
-        string nit;
+        int codigo;
+        int codigo_p;
         string nombre;
-        string apellido;
-        string direccion;
-        int telefono;
+        string marca;
+        string descripcion;
+        string cantidad;
 
-       
-
-        public string Nit
+        public int Codigo
         {
             get
             {
-                return nit;
+                return codigo;
             }
 
             set
             {
-                nit = value;
+                codigo = value;
+            }
+        }
+
+        public int Codigo_p
+        {
+            get
+            {
+                return codigo_p;
+            }
+
+            set
+            {
+                codigo_p = value;
             }
         }
 
@@ -42,42 +54,42 @@ namespace ProyectoTienda
             }
         }
 
-        public string Apellido
+        public string Marca
         {
             get
             {
-                return apellido;
+                return marca;
             }
 
             set
             {
-                apellido = value;
+                marca = value;
             }
         }
 
-        public string Direccion
+        public string Descripcion
         {
             get
             {
-                return direccion;
+                return descripcion;
             }
 
             set
             {
-                direccion = value;
+                descripcion = value;
             }
         }
 
-        public int Telefono
+        public string Cantidad
         {
             get
             {
-                return telefono;
+                return cantidad;
             }
 
             set
             {
-                telefono = value;
+                cantidad = value;
             }
         }
     }

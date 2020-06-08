@@ -378,6 +378,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Carrito.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -398,7 +399,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Pendiente_entrega.cs" />
     <Compile Include="Producto.cs" />
+    <Compile Include="Producto_mas_vendido.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -422,7 +425,8 @@
     <Compile Include="Venta.aspx.designer.cs">
       <DependentUpon>Venta.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Venta.cs" />
+    <Compile Include="Ventas.cs" />
+    <Compile Include="Ventas_Det.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

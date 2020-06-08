@@ -7,104 +7,118 @@ namespace ProyectoTienda
 {
     public class Producto
     {
-        string codigoProd;
-        string nombreProd;
-        string marcaProd;
-        string descripcionProd;
-        // imagen
-        float precioCompraProd;
-        float precioVentaProd;
-        int cantidadProd;
+        int codigo;
+        string nombre;
+        string marca;
+        string descripcion;
+        string precio_compra;
+        string precio_Venta;
+        int existencia;
+        string foto;
 
-        public string CodigoProd
+        public int Codigo
         {
             get
             {
-                return codigoProd;
+                return codigo;
             }
 
             set
             {
-                codigoProd = value;
+                codigo = value;
             }
         }
 
-        public string NombreProd
+        public string Nombre
         {
             get
             {
-                return nombreProd;
+                return nombre;
             }
 
             set
             {
-                nombreProd = value;
+                nombre = value;
             }
         }
 
-        public string MarcaProd
+        public string Marca
         {
             get
             {
-                return marcaProd;
+                return marca;
             }
 
             set
             {
-                marcaProd = value;
+                marca = value;
             }
         }
 
-        public string DescripcionProd
+        public string Descripcion
         {
             get
             {
-                return descripcionProd;
+                return descripcion;
             }
 
             set
             {
-                descripcionProd = value;
+                descripcion = value;
             }
         }
 
-        public float PrecioCompraProd
+        public string Precio_compra
         {
             get
             {
-                return precioCompraProd;
+                return precio_compra;
             }
 
             set
             {
-                precioCompraProd = value;
+                precio_compra = value;
             }
         }
 
-        public float PrecioVentaProd
+        public string Precio_Venta
         {
             get
             {
-                return precioVentaProd;
+                return precio_Venta;
             }
 
             set
             {
-                precioVentaProd = value;
+                precio_Venta = value;
             }
         }
 
-        public int CantidadProd
+        public int Existencia
         {
             get
             {
-                return cantidadProd;
+                return existencia;
             }
 
             set
             {
-                cantidadProd = value;
+                existencia = value;
             }
         }
+
+        public string Foto
+        {
+            get
+            {
+                return foto;
+            }
+
+            set
+            {
+                foto = value;
+            }
+        }
+    }
     }
 }
