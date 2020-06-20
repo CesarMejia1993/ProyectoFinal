@@ -1,0 +1,32 @@
+1
+Galleta
+Gama
+Doble hoja
+5
+10
+50
+~/Fotos/5.jpg
+2
+Snak
+Tortrix
+Tortrix Limon
+1
+2
+30
+~/Fotos/Tortrix_Limon.jpg
+3
+Snak
+Tortrix
+Tortrix Chicharron
+1
+2
+30
+~/Fotos/Tortrix-Con-Chicharron.jpg
+4
+Gaseosa
+Coca-Cola
+Lata 355ml
+5
+7
+24
+~/Fotos/coca-cola-lata.jpg
