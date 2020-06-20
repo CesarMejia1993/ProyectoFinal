@@ -119,14 +119,5 @@ namespace Proyecto_Final
                 foto = value;
             }
         }
-
-        //public string Codigo { get => codigo; set => codigo = value; }
-        //public string Nombre { get => nombre; set => nombre = value; }
-        //public string Marca { get => marca; set => marca = value; }
-        //public string Descripcion { get => descripcion; set => descripcion = value; }
-        //public string Precio_compra { get => precio_compra; set => precio_compra = value; }
-        //public string Precio_Venta { get => precio_Venta; set => precio_Venta = value; }
-        //public int Existencia { get => existencia; set => existencia = value; }
-        //public string Foto { get => foto; set => foto = value; }
     }
 }

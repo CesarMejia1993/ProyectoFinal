@@ -64,9 +64,6 @@ namespace Proyecto_Final
             }
         }
 
-        //public int Codigo { get => codigo; set => codigo = value; }
-        //public int Codigo_venta { get => codigo_venta; set => codigo_venta = value; }
-        //public int Codigo_prod { get => codigo_prod; set => codigo_prod = value; }
-        //public int Cant_prod { get => cant_prod; set => cant_prod = value; }
+       
     }
 }

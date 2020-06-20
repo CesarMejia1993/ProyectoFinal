@@ -91,12 +91,5 @@ namespace Proyecto_Final
                 cantidad = value;
             }
         }
-
-        //public int Codigo { get => codigo; set => codigo = value; }
-        //public int Codigo_p { get => codigo_p; set => codigo_p = value; }
-        //public string Nombre { get => nombre; set => nombre = value; }
-        //public string Marca { get => marca; set => marca = value; }
-        //public string Descripcion { get => descripcion; set => descripcion = value; }
-        //public string Cantidad { get => cantidad; set => cantidad = value; }
     }
 }
