@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Producto_View.aspx.cs" Inherits="Proyecto_Final.Producto_View" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Producto_View.aspx.cs" Inherits="ProyectoTienda.Producto_View" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="container">

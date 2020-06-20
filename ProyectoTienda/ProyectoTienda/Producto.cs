@@ -7,7 +7,7 @@ namespace ProyectoTienda
 {
     public class Producto
     {
-        int codigo;
+        string codigo;
         string nombre;
         string marca;
         string descripcion;
@@ -16,7 +16,7 @@ namespace ProyectoTienda
         int existencia;
         string foto;
 
-        public int Codigo
+        public string Codigo
         {
             get
             {

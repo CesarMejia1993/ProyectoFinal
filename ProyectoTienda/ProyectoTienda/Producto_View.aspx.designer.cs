@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace Proyecto_Final {
+namespace ProyectoTienda {
     
     
     public partial class Producto_View {

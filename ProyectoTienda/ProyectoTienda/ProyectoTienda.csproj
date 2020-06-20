@@ -248,7 +248,6 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
-    <Content Include="Venta.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -434,13 +433,6 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
-    <Compile Include="Venta.aspx.cs">
-      <DependentUpon>Venta.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Venta.aspx.designer.cs">
-      <DependentUpon>Venta.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Ventas.cs" />
     <Compile Include="Ventas_Det.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
