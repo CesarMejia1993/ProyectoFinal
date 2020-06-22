@@ -61,7 +61,7 @@
         <li class="dropdown">
           <a class="dropdown-toggle" role="button" aria-expanded="false" href="#" data-toggle="dropdown">ventas <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="Producto.aspx">Nuevo</a></li>
+            <li><a href="Ventas.aspx">Nuevo</a></li>
             <li><a href="#">Listar</a></li>
               <li><a href="#">Repo</a></li>            
           </ul>
@@ -71,8 +71,8 @@
         <li class="dropdown">
           <a class="dropdown-toggle" role="button" aria-expanded="true" href="#" data-toggle="dropdown">Clientes <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Nuevo</a></li>
-            <li><a href="#">Editar</a></li>            
+            <li><a href="Clientes.aspx">Nuevo</a></li>            
+              <li><a href="Clientes_View.aspx">Listar</a></li>
           </ul>
         </li>
       </ul>
@@ -86,7 +86,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET</p>
+                <p>&copy; <%: DateTime.Now.Year %> - David Sac Mi aplicación ASP.NET</p>
             </footer>
         </div>
 
