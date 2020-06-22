@@ -30,3 +30,11 @@ Lata 355ml
 7
 24
 ~/Fotos/coca-cola-lata.jpg
+5
+Carro
+Toyota
+vehiculo
+22000
+25000
+1
+~/Fotos/carro.jpg
