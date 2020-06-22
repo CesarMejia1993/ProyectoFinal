@@ -1,16 +1,51 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Clientes.aspx.cs" Inherits="Proyecto_Final.Clientes" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Clientes.aspx.cs" Inherits="Proyecto_Final.Clientes" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-<!DOCTYPE html>
+    <div class="container">
+	 <div class="page-header">
+	  <h1>Nuevo Cliente</small>
+         </h1>
+	 </div>
+   
+        
+           <div class="form-group">
+                <asp:Label ID="Lbl_Nit" class="col-lg-2 control-label" runat="server" Text="Nit"></asp:Label>
+            <div>
+                <asp:TextBox ID="Txt_Nit" class="form-control" runat="server"></asp:TextBox>
+                </div>
+           </div>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
+        <div class="form-group">
+                <asp:Label ID="Lbl_Nombre" class="col-lg-2 control-label" runat="server" Text="Nombre"></asp:Label>
+                <div>
+                <asp:TextBox ID="Txt_Nombre" class="form-control" runat="server"></asp:TextBox>
+                </div>
         </div>
-    </form>
-</body>
-</html>
+
+       <div class="form-group">
+                <asp:Label ID="Lbl_Apellido" class="col-lg-2 control-label" runat="server" Text="Apellido"></asp:Label>
+            <div>
+                <asp:TextBox ID="Txt_Apellido" class="form-control" runat="server"></asp:TextBox>
+                </div>
+       </div>
+        <div class="form-group">
+                <asp:Label ID="Lbl_Direccion" class="col-lg-2 control-label" runat="server" Text="Direccion"></asp:Label>
+          <div> 
+                <asp:TextBox ID="Txt_Direccion" class="form-control" runat="server"></asp:TextBox>
+              </div>
+           </div>
+        <div class="form-group">
+                <asp:Label ID="Lbl_Telefono" class="col-lg-2 control-label" runat="server" Text="Telefono"></asp:Label>
+            <div>
+                <asp:TextBox ID="Txt_Telefono" class="form-control" runat="server"></asp:TextBox>
+            </div>
+           </div>
+        <div class="form-group">
+                <asp:Label ID="Lbl_Guardar" class="col-lg-2 control-label" runat="server" Text="Guardar"></asp:Label>
+            <div>
+                <asp:Button ID="Btn_Guardar" class="form-control" runat="server" Text="Guardar" OnClick="Btn_Guardar_Click" />
+                </div>
+            </div>
+    
+
+</asp:Content>

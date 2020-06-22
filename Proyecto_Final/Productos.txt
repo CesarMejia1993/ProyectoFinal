@@ -32,7 +32,7 @@ Lata 355ml
 ~/Fotos/coca-cola-lata.jpg
 5
 Carro
-Toyota
+chevi
 vehiculo
 22000
 25000

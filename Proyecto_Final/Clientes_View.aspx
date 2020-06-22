@@ -1,16 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Clientes_View.aspx.cs" Inherits="Proyecto_Final.Clientes_View" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Clientes_View.aspx.cs" Inherits="Proyecto_Final.Clientes_View" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-<!DOCTYPE html>
+     <div class="container">
+        <div class="page-header">
+ 		    <h1>Clientes</h1>
+ 	    </div>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
+         <div class="table-responsive">
+             <asp:GridView ID="GridView1" class="table table-hover" runat="server" OnSelectedIndexChanged="GridView1_SelectedIndexChanged"></asp:GridView>
+         </div>
         </div>
-    </form>
-</body>
-</html>
+</asp:Content>
