@@ -1,0 +1,28 @@
+1
+87654321
+Pablo
+21/06/2020 00:00:00
+100
+Efectivo
+Entregada
+2
+87654321
+Pablo
+23/06/2020 00:00:00
+27
+Efectivo
+Pendiente
+3
+87654321
+Pablo
+23/06/2020 00:00:00
+57
+Tarjeta
+Pendiente
+4
+21212103
+David
+24/06/2020 00:00:00
+13
+Efectivo
+Entregada

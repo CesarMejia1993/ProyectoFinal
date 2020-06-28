@@ -76,7 +76,15 @@
           </ul>
         </li>
       </ul>
-      
+       <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" role="button" aria-expanded="true" href="#" data-toggle="dropdown">Entrega <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Entregas.aspx">Listados</a></li>            
+              
+          </ul>
+        </li>
+      </ul>
     </div>
  </div>
 </nav>

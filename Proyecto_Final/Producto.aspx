@@ -2,8 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
 	 <div class="page-header">
-	  <h1>Nuevo Producto</small>
-         </h1>
+	  <h1  align="center">Nuevo Producto</h1>
 	 </div>
     <table>
         

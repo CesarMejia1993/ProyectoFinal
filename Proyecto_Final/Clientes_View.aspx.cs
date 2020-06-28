@@ -43,8 +43,7 @@ namespace Proyecto_Final
                 GridView1.DataBind();
                 //GridView1. = Image;
                 //.Columns.RemoveAt(0);
-                // TextBox1.Text = Convert.ToString(Total_sueldos);
-            }
+               }
         }
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)

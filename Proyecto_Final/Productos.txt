@@ -38,3 +38,11 @@ vehiculo
 25000
 1
 ~/Fotos/carro.jpg
+6
+Moto
+Honda
+Navi
+9999
+12000
+20
+~/Fotos/Moto.jpg
