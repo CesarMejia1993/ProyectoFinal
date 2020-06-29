@@ -61,9 +61,7 @@
         <li class="dropdown">
           <a class="dropdown-toggle" role="button" aria-expanded="false" href="#" data-toggle="dropdown">ventas <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="Ventas.aspx">Nuevo</a></li>
-            <li><a href="#">Listar</a></li>
-              <li><a href="#">Repo</a></li>            
+            <li><a href="Ventas.aspx">Nuevo</a></li>                       
           </ul>
         </li>
       </ul>
@@ -75,8 +73,17 @@
               <li><a href="Clientes_View.aspx">Listar</a></li>
           </ul>
         </li>
+        <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" role="button" aria-expanded="false" href="#" data-toggle="dropdown">Reportes <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Prod_Vendido.aspx">Producto mas vendido</a></li>
+            <li><a href="Ventas_fech.aspx">Total de ventas</a></li>                       
+          </ul>
+        </li>
       </ul>
-       <ul class="nav navbar-nav">
+      </ul>
+        <ul class="nav navbar-nav">
         <li class="dropdown">
           <a class="dropdown-toggle" role="button" aria-expanded="true" href="#" data-toggle="dropdown">Entrega <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -85,6 +92,7 @@
           </ul>
         </li>
       </ul>
+      
     </div>
  </div>
 </nav>

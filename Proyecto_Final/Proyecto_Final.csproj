@@ -128,6 +128,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="POS_VL.aspx" />
     <Content Include="Producto.aspx" />
     <Content Include="Producto_View.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -217,6 +218,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Pendiente_entrega.cs" />
+    <Compile Include="POS_VL.aspx.cs">
+      <DependentUpon>POS_VL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="POS_VL.aspx.designer.cs">
+      <DependentUpon>POS_VL.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Producto.aspx.cs">
       <DependentUpon>Producto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
