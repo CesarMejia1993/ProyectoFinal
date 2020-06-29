@@ -1,0 +1,4 @@
+-Una de de los incoveietes es poder guarda la imagen en archivo de txt.
+- cree  una carpeta  para almacenar las imagen.
+-guradondo en path de la images es como la guradmo en el archivo de txt.
+-

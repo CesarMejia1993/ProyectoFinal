@@ -176,6 +176,7 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Carrito.cs" />
+    <Compile Include="Carro_Pub.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Clientes.aspx.cs">
       <DependentUpon>Clientes.aspx</DependentUpon>
