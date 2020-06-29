@@ -92,7 +92,14 @@
           </ul>
         </li>
       </ul>
-      
+      <ul class="nav navbar-nav" align="right" >
+        <a class="dropdown-toggle"  role="button" aria-expanded="true" href="#"<span class="caret"></span></a>
+         
+            <li  ><a href="POS_VL.aspx">  <img  src="carrito.png"  style="max-width:7%;width:auto;height:auto;"></a></li>            
+              
+          </ul>
+        </li>
+      </ul>
     </div>
  </div>
 </nav>

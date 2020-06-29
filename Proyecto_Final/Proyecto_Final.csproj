@@ -127,10 +127,14 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="POS_VL.aspx" />
+    <Content Include="Vista_Carro.aspx" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="PoS1.Master" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Producto.aspx" />
     <Content Include="Producto_View.aspx" />
+    <Content Include="Prod_Vendido.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -161,6 +165,7 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="Ventas.aspx" />
+    <Content Include="Ventas_fech.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -218,6 +223,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Pendiente_entrega.cs" />
+    <Compile Include="PoS1.Master.cs">
+      <DependentUpon>PoS1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PoS1.Master.designer.cs">
+      <DependentUpon>PoS1.Master</DependentUpon>
+    </Compile>
     <Compile Include="POS_VL.aspx.cs">
       <DependentUpon>POS_VL.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -240,6 +252,13 @@
     </Compile>
     <Compile Include="Producto_View.aspx.designer.cs">
       <DependentUpon>Producto_View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Prod_Vendido.aspx.cs">
+      <DependentUpon>Prod_Vendido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prod_Vendido.aspx.designer.cs">
+      <DependentUpon>Prod_Vendido.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -264,12 +283,33 @@
     </Compile>
     <Compile Include="Ventas.cs" />
     <Compile Include="Ventas_Det.cs" />
+    <Compile Include="Ventas_fech.aspx.cs">
+      <DependentUpon>Ventas_fech.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ventas_fech.aspx.designer.cs">
+      <DependentUpon>Ventas_fech.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista_Carro.aspx.cs">
+      <DependentUpon>Vista_Carro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vista_Carro.aspx.designer.cs">
+      <DependentUpon>Vista_Carro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

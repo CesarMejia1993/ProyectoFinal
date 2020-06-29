@@ -80,7 +80,7 @@ namespace Proyecto_Final
                 venta_carro.Nombre = Txt_Nombre.Text;
                 venta_carro.Marca = Txt_Marca.Text;
                 venta_carro.Descripcion = Txt_Descripcion.Text;
-                //venta_carro.Cantidad = 1;
+                venta_carro.Cantidad = 1;
                 venta_carro.Precio = Convert.ToDouble(Txt_Precio.Text);
                 Carro_Pub.Carro_Publico.Add(venta_carro);
             }
@@ -92,7 +92,7 @@ namespace Proyecto_Final
                 venta_carro.Nombre = Txt_Nombre.Text;
                 venta_carro.Marca = Txt_Marca.Text;
                 venta_carro.Descripcion = Txt_Descripcion.Text;
-               // venta_carro.Cantidad = 1;
+                venta_carro.Cantidad = 1;
                 venta_carro.Precio = Convert.ToDouble(Txt_Precio.Text);
                 Carro_Pub.Carro_Publico.Add(venta_carro);
             }
