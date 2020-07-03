@@ -31,18 +31,18 @@ Lata 355ml
 24
 ~/Fotos/coca-cola-lata.jpg
 5
-Carro
-chevi
-vehiculo
-22000
-25000
-1
-~/Fotos/carro.jpg
+Coco Cola
+Coco Cola
+1.5L
+10
+15
+48
+~/Fotos/coca cola.jpg
 6
-Moto
-Honda
-Navi
-9999
-12000
-20
-~/Fotos/Moto.jpg
+Sopa
+Laki
+Instantanea
+4
+5
+12
+~/Fotos/Laky-Men.png

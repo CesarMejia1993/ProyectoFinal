@@ -26,3 +26,150 @@ David
 13
 Efectivo
 Entregada
+5
+201208083
+Hector 
+02/07/2020 0:00:00
+100
+Efectivo
+Entregada
+6
+201208083
+Hector 
+02/07/2020 0:00:00
+30
+Efectivo
+Pendiente
+6
+201208083
+Hector 
+02/07/2020 0:00:00
+30
+Efectivo
+Pendiente
+6
+201208083
+Hector 
+02/07/2020 0:00:00
+30
+Efectivo
+Pendiente
+6
+201208083
+Hector 
+02/07/2020 0:00:00
+30
+Tarjeta
+Pendiente
+6
+201208083
+Hector 
+02/07/2020 0:00:00
+30
+Efectivo
+Pendiente
+11
+201208083
+Hector 
+02/07/2020 0:00:00
+30
+Efectivo
+Pendiente
+12
+201208083
+Hector 
+02/07/2020 0:00:00
+25
+Efectivo
+Pendiente
+13
+
+
+02/07/2020 0:00:00
+25
+Efectivo
+Pendiente
+13
+
+
+02/07/2020 0:00:00
+25
+Efectivo
+Pendiente
+13
+
+
+02/07/2020 0:00:00
+25
+Efectivo
+Pendiente
+13
+
+
+02/07/2020 0:00:00
+25
+Efectivo
+Pendiente
+17
+
+
+02/07/2020 0:00:00
+17
+Efectivo
+Pendiente
+17
+201208083
+Hector 
+02/07/2020 0:00:00
+17
+Efectivo
+Pendiente
+17
+201208083
+Hector 
+02/07/2020 0:00:00
+17
+Efectivo
+Pendiente
+17
+201208083
+Hector 
+02/07/2020 0:00:00
+17
+Efectivo
+Pendiente
+17
+201208083
+Hector 
+02/07/2020 0:00:00
+17
+Efectivo
+Pendiente
+22
+58007875
+Max
+02/07/2020 0:00:00
+19
+Efectivo
+Entregada
+23
+201208083
+Hector 
+02/07/2020 0:00:00
+12
+Efectivo
+Pendiente
+24
+201208083
+Hector 
+02/07/2020 0:00:00
+12
+Efectivo
+Entregada
+25
+
+
+02/07/2020 0:00:00
+11
+Efectivo
+Pendiente

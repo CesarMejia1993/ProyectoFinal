@@ -152,6 +152,15 @@ namespace Proyecto_Final
 
             }
 
+            Txt_Nit.Text = "";
+            Txt_Nombre.Text = "";
+            Txt_Apellido.Text = "";
+            Txt_Direccion.Text = "";
+            Txt_Telefono.Text = "";
+            Txt_Total.Text = "";
+
+
+            GridView1.Columns.Clear();
         }
 
         protected void Bnt_Ver_Click(object sender, EventArgs e)
